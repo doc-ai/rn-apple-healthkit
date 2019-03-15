@@ -59,6 +59,9 @@
 		377D44F21D247D0A004E35CB /* RCTAppleHealthKit+Methods_Characteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTAppleHealthKit+Methods_Characteristic.m"; sourceTree = "<group>"; };
 		37837E7B1DCFE270000201A0 /* RCTAppleHealthKit+Methods_Sleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTAppleHealthKit+Methods_Sleep.h"; sourceTree = "<group>"; };
 		37837E7C1DCFE270000201A0 /* RCTAppleHealthKit+Methods_Sleep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTAppleHealthKit+Methods_Sleep.m"; sourceTree = "<group>"; };
+		3C636155223B824300773848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5559CC0D207391FC004A9342 /* RCTAppleHealthKit+Methods_CDA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTAppleHealthKit+Methods_CDA.h"; sourceTree = "<group>"; };
+		5559CC0E207391FC004A9342 /* RCTAppleHealthKit+Methods_CDA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTAppleHealthKit+Methods_CDA.m"; sourceTree = "<group>"; };
 		58C81E6D1F84F6970005DD48 /* RCTAppleHealthKit+Methods_Activity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTAppleHealthKit+Methods_Activity.m"; sourceTree = "<group>"; };
 		58C81E6E1F84F6970005DD48 /* RCTAppleHealthKit+Methods_Activity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTAppleHealthKit+Methods_Activity.h"; sourceTree = "<group>"; };
 		61232F911E303758000A5026 /* RCTAppleHealthKit+Methods_Mindfulness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTAppleHealthKit+Methods_Mindfulness.h"; sourceTree = "<group>"; };
@@ -127,6 +130,9 @@
 				377D44F21D247D0A004E35CB /* RCTAppleHealthKit+Methods_Characteristic.m */,
 				37837E7B1DCFE270000201A0 /* RCTAppleHealthKit+Methods_Sleep.h */,
 				37837E7C1DCFE270000201A0 /* RCTAppleHealthKit+Methods_Sleep.m */,
+				5559CC0D207391FC004A9342 /* RCTAppleHealthKit+Methods_CDA.h */,
+				5559CC0E207391FC004A9342 /* RCTAppleHealthKit+Methods_CDA.m */,
+				3C636155223B824300773848 /* Info.plist */,
 			);
 			path = RCTAppleHealthKit;
 			sourceTree = "<group>";

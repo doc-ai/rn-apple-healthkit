@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Info.plist
+   RCTAppleHealthKit
+
+   Created by Monica He on 3/14/19.
+   Copyright (c) 2019 Doc.ai. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+        <key>CFBundleDisplayName</key>
+        <string>${PRODUCT_NAME}</string>
+        <key>CFBundleExecutable</key>
+        <string>${EXECUTABLE_NAME}</string>
+        <key>CFBundleIconFile</key>
+        <string>Icon.png</string>
+        <key>CFBundleIdentifier</key>
+        <string>ai.doc.sdk.demo.${PRODUCT_NAME:rfc1034identifier}</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>${PRODUCT_NAME}</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleVersion</key>
+        <string>1.0</string>
+        <key>LSRequiresIPhoneOS</key>
+        <true/>
+        <key>NSMainNibFile</key>
+        <string>MainWindow</string>
+        <key>NSHealthUpdateUsageDescription</key>
+        <string>Informing you of progress and health goals</string>
+    </dict>
+</plist>
