@@ -56,6 +56,7 @@ export const Permissions = {
   Zinc: "Zinc",
   Water: "Water",
   DistanceCycling: "DistanceCycling",
+  DistanceSwimming: "DistanceSwimming",
   DistanceWalkingRunning: "DistanceWalkingRunning",
   FlightsClimbed: "FlightsClimbed",
   HeartRate: "HeartRate",
@@ -67,5 +68,6 @@ export const Permissions = {
   SleepAnalysis: "SleepAnalysis",
   StepCount: "StepCount",
   Steps: "Steps",
-  Weight: "Weight"
+  Weight: "Weight",
+  Workout: "Workout"
 }
