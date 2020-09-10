@@ -27,6 +27,28 @@ declare module "rn-apple-healthkit" {
         getMindfulSession(options: MindfulSessionData, callback: (err: string, results: HealthValue) => void): void;
 
         getStepCount(options: any, callback: (err: string, results: HealthValue) => void): void;
+
+        getCCDADocument(options: Object, callback: (err:string, results: Object) => void): void;
+
+        getAllergyRecord(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+        
+        getConditionRecord(options: Object, callback: (error: string, result: ClinicalType) => void): void;();
+
+        getMedicationRecords(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+
+        getLabResultRecords(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+
+        getProcedureRecords(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+
+        getImmunizationRecords(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+
+        getClinicalVitalRecords(options: Object, callback: (error: string, result: ClinicalType) => void): void;
+
+    }
+
+    export interface ClinicalType {
+        displayName: string;
+        FHIRResource: Object;
     }
 
     export interface HealthDateOfBirth {
